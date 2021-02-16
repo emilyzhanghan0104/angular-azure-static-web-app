@@ -1,0 +1,40 @@
+Skip to content
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+bbachi
+/
+react-azure-static-web-app
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+More
+react-azure-static-web-app/api/todos-get/function.json
+@bbachi
+bbachi initial commit
+ History
+ 1 contributor
+17 lines (17 sloc)  273 Bytes
+  
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": ["get"],
+      "route": "todos"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ]
+}
+
