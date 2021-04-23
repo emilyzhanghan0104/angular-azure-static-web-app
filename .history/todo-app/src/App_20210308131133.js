@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <Header>
-        <Button type="button">Sinin</Button>
+        <Button>Sinin</Button>
       </Header>
       <div className="container mrgnbtm">
         <div className="row">
